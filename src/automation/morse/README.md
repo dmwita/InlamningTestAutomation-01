@@ -1,5 +1,3 @@
-**For my reference and whoever  wanntts to contribute**
-
 # Morse Code Converter
 A Java-based application that translates text to International Morse Code and vice versa. 
 This project was developed following Test-Driven Development (TDD) principles.
@@ -122,22 +120,5 @@ In IntelliJ:
 - Select **Run**
 
 ---
-**Future Improvements**
-
-This project can be extended in several ways:
-
-- Introduce parameterized tests to increase coverage.
-
-- Add support for numbers and punctuation.
-
-- Improve architecture using interfaces and dependency injection.
-
-- Implement logging instead of console output.
-
-- Add CI/CD pipeline integration.
-
-- Measure and improve performance for large inputs.
-
-- Expand validation and edge-case handling.
 
 Project developed as part of a Java / Software Testing assignment.
