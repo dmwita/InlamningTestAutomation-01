@@ -29,6 +29,7 @@ public class MorseCodeConverter {
                 {"U", "..-"}, {"V", "...-"}, {"W", ".--"}, {"X", "-..-"}, {"Y", "-.--"}, {"Z", "--.."}
         };
 
+        //Create reverse map automatically
         for (String[] pair : alphabet) {
             letterToMorse.put(pair[0], pair[1]);
             morseToLetter.put(pair[1], pair[0]);
