@@ -37,7 +37,7 @@ public class MorseCodeMain {
             // Display validation errors from logic class
             System.out.println("Error: " + e.getMessage());
         } finally {
-            scanner.close();
+
         }
     }
 }

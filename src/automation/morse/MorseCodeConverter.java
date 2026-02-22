@@ -9,6 +9,8 @@ import java.util.HashMap;
 public class MorseCodeConverter {
 
     // Lookup maps for fast translation in both directions
+    //Declare private to prevent external modification
+    //Final to ensure dictionary reference remains imutable after initialization
     private final HashMap<String, String> letterToMorse = new HashMap<>();
     private final HashMap<String, String> morseToLetter = new HashMap<>();
 
