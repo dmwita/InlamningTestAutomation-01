@@ -18,7 +18,7 @@ Clone this repository: git clone https://github.com/dmwita/InlamningTestAutomati
 - **Error Handling:** Implements two mechanisms using IllegalArgumentException to catch invalid text characters and unrecognized Morse signals.
 - **Standard Compliance:** Uses the International Morse Code standard (A–Z).
 
----
+
 
 ## Testing Strategy (AAA Pattern)
 
@@ -33,7 +33,7 @@ Call the method under test.
 ### Assert
 Verify that the result matches the expected output.
 
-------
+
 
 ### Example
 
@@ -74,7 +74,7 @@ Contains the `HashMap` dictionaries and core translation logic.
     - Converts space-separated Morse code into English text.
     - Validates Morse sequences before translation.
 
----
+
 
 ###  MorseCodeMain.java (Main Class)
 
@@ -83,7 +83,7 @@ Contains the `HashMap` dictionaries and core translation logic.
 - Provides a simple menu interface.
 - Uses `try-catch` for user-friendly error handling.
 
----
+
 
 ### 3. MorseCodeTest.java (Test Class)
 
@@ -96,7 +96,7 @@ JUnit 5 test suite that:
     - Invalid Morse sequences.
 - Follows the AAA testing structure.
 
----
+
 
 ## Error Handling
 
@@ -111,7 +111,7 @@ The system includes two defensive layers:
     - Prevents undefined output.
 
     
----
+
 
 ## Running Tests
 
@@ -119,6 +119,6 @@ In IntelliJ:
 - Right-click `MorseCodeTest`
 - Select **Run**
 
----
+
 
 Project developed as part of a Java / Software Testing assignment.
