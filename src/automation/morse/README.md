@@ -1,3 +1,5 @@
+**For my Reference and whoever wants to contribute**
+
 # Morse Code Converter
 A Java-based application that translates text to International Morse Code and vice versa. 
 This project was developed following Test-Driven Development (TDD) principles.
@@ -18,7 +20,6 @@ Clone this repository: git clone https://github.com/dmwita/InlamningTestAutomati
 - **Error Handling:** Implements two mechanisms using IllegalArgumentException to catch invalid text characters and unrecognized Morse signals.
 - **Standard Compliance:** Uses the International Morse Code standard (A–Z).
 
----
 
 ## Testing Strategy (AAA Pattern)
 
@@ -33,7 +34,6 @@ Call the method under test.
 ### Assert
 Verify that the result matches the expected output.
 
-------
 
 ### Example
 
@@ -74,16 +74,12 @@ Contains the `HashMap` dictionaries and core translation logic.
     - Converts space-separated Morse code into English text.
     - Validates Morse sequences before translation.
 
----
-
 ###  MorseCodeMain.java (Main Class)
 
 - Entry point of the application.
 - Uses `Scanner` to read user input.
 - Provides a simple menu interface.
 - Uses `try-catch` for user-friendly error handling.
-
----
 
 ### 3. MorseCodeTest.java (Test Class)
 
@@ -95,8 +91,6 @@ JUnit 5 test suite that:
     - Invalid English characters (`!`, `1`, etc.).
     - Invalid Morse sequences.
 - Follows the AAA testing structure.
-
----
 
 ## Error Handling
 
@@ -110,15 +104,28 @@ The system includes two defensive layers:
     - Ensures dot/dash sequences exist in the dictionary.
     - Prevents undefined output.
 
-    
----
-
 ## Running Tests
 
 In IntelliJ:
 - Right-click `MorseCodeTest`
 - Select **Run**
 
----
+**Future Improvements**
+
+- This project can be extended in several ways:
+
+- Introduce parameterized tests to increase coverage.
+
+- Add support for numbers and punctuation.
+
+- Improve architecture using interfaces and dependency injection.
+
+- Implement logging instead of console output.
+
+- Add CI/CD pipeline integration.
+
+- Measure and improve performance for large inputs.
+
+- Expand validation and edge-case handling.
 
 Project developed as part of a Java / Software Testing assignment.
