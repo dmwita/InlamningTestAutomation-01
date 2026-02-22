@@ -3,8 +3,8 @@ package automation.morse;
 import java.util.Scanner;
 
 /**
- * Entry point of the application.
- * Handles user interaction and delegates translation to MorseCodeConverter.
+ Entry point of the application.
+ Handles user interaction and delegates translation to MorseCodeConverter.
  */
 public class MorseCodeMain {
 
