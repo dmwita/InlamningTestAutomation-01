@@ -10,7 +10,7 @@ This project was developed following Test-Driven Development (TDD) principles.
 - A Java IDE (IntelliJ IDEA, Eclipse) or Maven for running tests.
 
 **Installation**
-Clone this repository: git clone https://github.com/dmwita/InlamningTestAutomation.git
+Clone this repository: git clone https://github.com/dmwita/InlamningTestAutomation-01.git
 ## Requirements Met
 
 - **Bidirectional Conversion:** Translates English (A-Z) to Morse and Morse signals to English.
