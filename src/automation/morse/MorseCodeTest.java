@@ -8,6 +8,7 @@ public class MorseCodeTest {
 
     private MorseCodeConverter converter;
 
+    // ensure test isolation and avoid repetition.
     @BeforeEach
     void setUp() {
         // Arrange - Instantiate converter before each test
@@ -45,11 +46,31 @@ public class MorseCodeTest {
     }
 
     @Test
+    void testHandleLowercase() {
+
+        // Arrange
+        String input = "a";
+
+        // Act
+        String result = converter.textToMorse(input);
+
+        // Assert
+        assertEquals(".-", result);
+    }
+
+
+ //This was just to show the difference when exception is introduced but not a requirement
+    @Test
     void testInvalidCharacterErrorHandling() {
         // Arrange
         String input = "HELLO!";
         // Act & Assert combined for Exception handling
-        assertThrows(IllegalArgumentException.class, () -> converter.textToMorse(input));
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
+                () -> converter.textToMorse(input)
+        );
+
+        assertEquals("Invalid character", exception.getMessage());
+
     }
 
     @Test
