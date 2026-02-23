@@ -8,7 +8,7 @@ public class MorseCodeTest {
 
     private MorseCodeConverter converter;
 
-    // ensure test isolation and avoid repetition.
+    //to ensure test isolation and avoid repetition.
     @BeforeEach
     void setUp() {
         // Arrange - Instantiate converter before each test
@@ -69,7 +69,7 @@ public class MorseCodeTest {
                 () -> converter.textToMorse(input)
         );
 
-        assertEquals("Invalid character", exception.getMessage());
+        assertEquals("Invalid character: !", exception.getMessage());
 
     }
 
